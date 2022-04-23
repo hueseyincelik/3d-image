@@ -10,11 +10,12 @@ pip3 install -r requirements.txt
 ```
 and import the modules using:
 ```python
-import 3D_Image, Plot
+from src import image, plot
 ```
 # Usage
 For instruction on how to use the project, see [main.py](/main.py). Example [images](/images) and [plots](/plots) are provided in their respective folders.
 
 # License
 Copyright © 2022 [Hüseyin Çelik](https://www.github.com/).
+
 This project is licensed under [AGPL v3](/LICENSE).
