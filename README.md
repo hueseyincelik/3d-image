@@ -16,6 +16,6 @@ from src import image, plot
 For instruction on how to use the project, see [main.py](/main.py). Example [images](/images) and [plots](/plots) are provided in their respective folders.
 
 # License
-Copyright © 2022 [Hüseyin Çelik](https://www.github.com/).
+Copyright © 2022 [Hüseyin Çelik](https://www.github.com/hueseyincelik).
 
 This project is licensed under [AGPL v3](/LICENSE).
