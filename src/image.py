@@ -21,7 +21,7 @@ class Image:
 		self.value = np.asarray([np.fft.ifft2(ndimage.fourier_gaussian(np.fft.fft2(img), sigma)).real for img in self.value])
 
 	def reslice(self, number):
-		return np.asarray([*self.value[number:], *self.value[:number]]) if number > 0 else np.asarray([*self.value[number:], *self.value[:number]])
+		return np.asarray([*self.value[number:], *self.value[:number]])
 
 	def interpolate(self, images, factor, order=3, mode='grid-wrap', grid_mode=True):
 		return ndimage.zoom(images[::factor], [factor, 1, 1], order=order, mode=mode, grid_mode=grid_mode)
